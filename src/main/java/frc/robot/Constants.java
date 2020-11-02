@@ -32,4 +32,9 @@ public final class Constants {
         public static final int RightStickXAxis = 2;
         public static final int RightStickYAxis = 3;
     }
+
+    public static final class Autonomous{
+        public static final double DriveForwardTime = 5; //in seconds
+        public static final double DriveSpeed = 0.5; //percentage of drive speed used
+    }
 }
